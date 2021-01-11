@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Today's Weather 🌧 </title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Today's Weather</h1>
+        <div class="search-bar">
+            <input type="text" name="" placeholder="Enter City" id="tbCity" class="textBox">
+            <button id="btnSearch" class="btn">Search</button>
+            <button id="btnRefresh" class="btn">Refresh</button>
+        </div>
+        <div class="weather-container">
+            <img id="loading"src="./assets/loading.svg" alt="" srcset="">
+            <img src="" alt="" id="weather-icon">
+            <h1 id="result"></h1>
+            <h3 id="weather-description"></h3>
+            <h4 id="city"></h4>
+        </div>
+    </div>
+    <div class="bar">
+        <button title="Humidity" id = "humidity" class="bar-button"><img src="./assets/Water-Drop-256.png" alt="" srcset=""></button>
+        <button title = "Pressure" id = "pressure" class="bar-button"><img src="./assets/Gauge-256.png" alt="" srcset=""></button>
+        <a href="https://github.com/NathenKorsten/DailyWeatherApp"><img class="rotate-center" src="./assets/git.png" alt="" srcset=""></a>
+    </div>
+    <div class="circle  glass vibrate-2"></div>
+    <div class="circle1 glass vibrate-2"></div>
+    <div class="circle2 glass vibrate-2"></div>
+    <div class="circle3 glass vibrate-3"></div>
+    <div class="circle4 glass vibrate-2"></div>
+</body>
+</html>
