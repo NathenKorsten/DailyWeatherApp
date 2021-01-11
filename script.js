@@ -31,10 +31,6 @@ const getWeather = async (city = "Johannesburg") =>{
     btnHumidity.addEventListener("click", ()=>{
         weatherResult.innerText = `${description.main.humidity} g`
     })
-
-    btnSeaLevel.addEventListener("click", ()=>{
-        weatherResult.innerText = `${description.s}`
-    })
     
 }
 
